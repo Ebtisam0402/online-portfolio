@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+  <title>Ebtisam Abdelkerim's IT161 Portal Website</title>
+  <meta name="robots" content="noindex,nofollow" />
+  <meta name="viewport" content="width=device-width" />
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="css/main.css" />
+  <link rel="stylesheet" href="css/nav.css" />
+ </head>
+ <body>
+     <header>
+     <h1>Ebtisam's Project</h1>
+     <nav class="topnav" id="myTopnav">
+       <a href="index.html">Home</a>
+       <a href="about.html">About</a>
+       <a href="resume.html">Resume</a>
+       <a href="project.html" class="active">Project</a>
+       <a href="contact.html">Contact Ebtisam</a>
+       <a href="javascript:void(0);" class="icon" onclick="myFunction()">&#9776;</a>
+     </nav>
+     </header>
+     
+  
+    <div class="wrapper">
+     
+      <img class="desktop" src="images/project.jpg" alt="My project screen shot" />
+        
+      <img class="tablet" src="images/project.jpg" alt="My project screen shot" />
+        
+      <img class="phone" src="images/center.jpg" alt="My project screen shot" />
+       
+
+      
+      <p>I skillfully built a lively website for a community center using HTML5, JavaScript, and CSS. This successful teamwork beautifully blends all the small details, reflecting the center's vibe and providing an online way for people to connect. </p>
+      <a href="https://web-students.net/site58/it161/fp/index.html" target="_blank">Check Out Project</a>
+      <h2 class="subheader">Case Study</h2>
+       <p>Community center that provides community events, educational classes and diverse programs tailored to various age groups. The center extends its support to families through essential assistance initiatives. And when summer came around, the center came alive with laughter and excitement, as it dedicated itself to crafting unforgettable experiences for children through meticulously curated programs.</p>
+        
+        <p>This community center wasn't just a place; it was a feeling of unity, growth, and connection. It played a pivotal role in weaving the threads of the community closer together, fostering friendships, and being a safe haven for those who sought aid.</p>
+        
+        <p>Yet, even a place as special as the Community Center faced challenges. Its website, the virtual gateway to its vibrant world, struggled to keep up with its dynamic offerings. Outdated and lacking user-friendly navigation, the website failed to effectively showcase the kaleidoscope of programs and events it offered. The center's administration recognized the need for change and embarked on a journey to reshape their digital presence.</p>
+        
+        <p>They envisioned a website that not only reflected the center's mission but also acted as a welcoming doorway to the myriad opportunities within. A team of creative minds came together, choosing colors and visual elements that echoed the center's essence. They carefully designed the layout of the homepage, ensuring that key programs and events took center stage, capturing the attention of anyone who visited.</p>
+        
+        <p>Navigation was a priority, as they wanted visitors to easily find what they sought. With careful consideration, they crafted a clear navigation structure, ensuring essential information was just a click away. To empower the staff to keep the website current, they opted for a content management system that simplified updates.</p>
+        
+        <p>An event calendar plugin found its place on the website, eagerly displaying upcoming programs and activities. The team decided to embrace technology and include online registration forms for classes and events, making participation a breeze. Recognizing the prevalence of mobile devices, they chose a responsive design, ensuring that the website shone brightly on screens of all sizes. The images they chose were more than just visuals; they were reflections of the diverse community that the center embraced.</p>
+        
+        <p>With the blueprint in place, the development process unfolded. Technologies like HTML, CSS, and JavaScript were woven together to create a responsive front-end design that adapted seamlessly to various devices. Back-end functionalities came to life, giving birth to the event calendar, registration forms, and a content management system. Accessibility wasn't forgotten; the website was tailored to be user-friendly for all, regardless of abilities.</p>
+        
+        <p>The moment arrived when the newly redesigned website went live. The change was remarkable. Community members found themselves more engaged than ever before. The modern design welcomed them, making exploration effortless. The integration of the event calendar and online registration transformed participation, leading to increased attendance. The enhanced communication features ensured that no community member missed out on exciting events and updates.</p>
+        
+        
+      
+     <footer>
+      <p><small>&copy; 2023 by 
+          <a href="contact.html">Ebtisam Abdelkerim</a>, All Rights Reserved ~ 
+          <a id="html-checker" href="#">Check HTML</a> ~ 
+          <a id="css-checker" href="#">Check CSS</a></small>
+     </p>
+    </footer>
+  </div>
+     
+  <!-- Toggle between adding and removing the "responsive" class to topnav when the user clicks on the icon -->
+     
+  <script>
+    //https://tinyurl.com/dynamic-html-checker
+    document.getElementById("html-checker").setAttribute("href","https://validator.w3.org/nu/?doc=" + location.href);
+      
+    document.getElementById("css-checker").setAttribute("href","https://jigsaw.w3.org/css-validator/validator?uri=" + location.href);  
+    
+    //manages mobile nav 
+    function myFunction() {
+        var x = document.getElementById("myTopnav");
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }   
+ </script>
+     
+ </body>
+</html>
